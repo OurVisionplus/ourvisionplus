@@ -1,8 +1,8 @@
-import './App.css';
-
 function App() {
   return (
-    <div className={'bg-red-500'}>test</div>
+    <div className="bg-white-900 w-screen h-screen">
+
+    </div>
   );
 }
 
