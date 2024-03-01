@@ -3,8 +3,8 @@ import { FaWhatsapp } from 'react-icons/fa';
 const Dashboard = () => (
   <section>
     <div className="bg-white text-center mx-4 p-8 w-full md:w-auto mt-40 mb-32">
-      <h1 className="text-7xl font-bold mb-6">We Create Sleek Apps</h1>
-      <p className="text-3xl mb-20">
+      <h1 className="text-7xl font-bold mb-6 sm:text-red-900 md:text-green-900 lg:text-gray-900 xl:text-black">We Create Sleek Apps</h1>
+      <p className="text-3xl mb-20 sm:text-xl">
         We’re experts in crafting products that engage your audience, set your
         brand
         <br />
@@ -17,7 +17,7 @@ const Dashboard = () => (
         Get in touch
       </a>
     </div>
-    <div className="grid md:grid-cols-2 md:items-center md:text-left pt-16 pb-16 mr-20 ml-20 gap-20">
+    <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 md:items-center md:text-left pt-16 pb-16 mr-20 ml-20 gap-20">
       <div className="mt-4 mb-4">
         <img
           className="w-full rounded-lg"
@@ -26,15 +26,13 @@ const Dashboard = () => (
         />
       </div>
       <div>
-        <h2 className="text-5xl font-medium text-justify mb-14">
+        <h2 className="text-5xl font-medium text-justify mb-10">
           Specialized in MVP launching & scaling software apps.
         </h2>
         <p className="text-2xl text-justify">
           We assist businesses of every scale in introducing software products.
           Our team comprehends your vision and transforms it into exceptional
-          experiences by employing top-notch development practices. Whether
-          you&apos;re initiating a new venture or expanding to greater heights,
-          we stand prepared to engage as a strategic partner for your journey.
+          experiences by employing top-notch development practices.
         </p>
       </div>
 
